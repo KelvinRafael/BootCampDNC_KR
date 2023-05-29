@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ==== Link Font inter ==== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- === Folha de estilo === -->
+    <link rel="stylesheet" href="style.css">
+    <title>Bootcamp DNC Versão Prof</title>
+</head>
+<body>
+
+    <!-- ==== Cabecalho ====   -->
+    <nav id="principal">
+        <div id="menu">
+            <a href="">Home</a>
+            <a href="">Ultimas Edições</a>
+            <a href="">Requisitos para participar</a>
+        </div>
+          <button>Login</button>  
+        
+    </nav>
+    
+    <section id="section">
+        <header>
+            <h1>BOOTCAMP DNC</h1>
+            <h2 id="subtituloHeader">Esse será um evento exclusivo para todos os alunos <br> da <span>DNC</span>, 
+            que querem <span class="inverte">acelerar a carreira</span> com uma <br> 
+            semana intensiva de conteúdo de mercado entre <br>
+            <span class="inverte">BACK-END, FRONT-END & BANCO DE DADOS.</span></h2>
+        </header>
+        
+        <!-- ==== Formulário ==== -->
+        
+        <form action="">
+
+            <div class="formGroup">
+                <label for="name" class="labelForm">Nome:</label>
+                <input type="text" name="name" class="inputForm" placeholder="Insira seu nome aqui">
+            </div>
+            
+            <div class="formGroup">
+                <label for="name" class="labelForm">Sobrenome:</label>
+            <input type="text" name="Sobrenome"class="inputForm" placeholder="Insira seu sobrenome aqui">
+            </div>
+
+            <div class="formGroup">
+                <label for="front back bd"class="labelForm" id="areaInteresse">Área de interesse:</label>
+                
+                <div class="checkboxItens">
+
+                    <input type="checkbox" name="front" class="checkbox">
+                    <label for="">Front-End</label>
+
+                    <input type="checkbox" name="back" class="checkbox">
+                    <label for="">Back-End</label>
+
+                    <input type="checkbox" name="bd" class="checkbox">
+                    <label for="">Banco de Dados</label> 
+                </div>    
+            </div>
+
+            <div id="divInteresse">
+
+                <div class="formGroup">
+                    
+                    <label for="email"class="labelForm">E-mail:</label>
+                    <input type="email" name="email" placeholder="Insira seu e-mail aqui" class="inputForm">
+
+                    <label for="telefone"class="labelForm">Telefone:</label>
+                    <input type="number" placeholder="(99) 9999-9999" class="inputForm">
+
+                    <label for="frase"class="labelForm" >Insira uma frase criativa aqui:</label>
+                    <input class="inputForm" placeholder="Qual frase criativa você gostaria de falar? :"></input>
+                
+                </div>
+            </div>
+
+            
+
+            <input type="submit"></input>        
+            
+        </form>
+</section>
+
+        <!-- ==== Cursos ====  -->
+    <footer>
+        
+    </footer>
+</body>
+</html>
