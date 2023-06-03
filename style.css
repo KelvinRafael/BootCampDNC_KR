@@ -344,4 +344,38 @@ body{
     .checkboxItens label{
         font-size: 13px;
     }
+
+
+    /*Footer*/
+
+    footer .linha1{
+        /* display: flex; */
+        flex-direction: column;
+
+    }
+
+    footer nav{
+        margin: none;
+        padding: none;
+        height: 250px;
+    }
+
+    footer .linha1 nav ul li{
+        font-size: 0.9rem;
+
+    }
+
+    footer .linha1 nav h5{
+        font-size: 1.0rem;
+    }
+
+    /*Endereço*/
+
+    footer #endereco{
+        width: 90%;
+    }
+
+    footer .linha2 {
+        font-size: 15px;
+    }
 }
